@@ -1,5 +1,6 @@
 import { ThemeProvider } from 'styled-components'
 
+import { Blog } from './pages/Blog'
 import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/themes/defaults'
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
-      <h1>Ola</h1>
+      <Blog />
     </ThemeProvider>
   )
 }
