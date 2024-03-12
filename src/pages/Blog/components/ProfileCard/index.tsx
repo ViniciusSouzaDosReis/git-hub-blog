@@ -7,10 +7,10 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import AvatarImage from '@/assets/avatar.png'
+import { InfoItem } from '@/components/InfoItem'
 
 import {
   ImageProfile,
-  InfoItem,
   ProfileCardContainer,
   ProfileInfoContainer,
   UserInformation,

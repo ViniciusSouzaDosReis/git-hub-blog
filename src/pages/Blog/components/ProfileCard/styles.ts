@@ -48,10 +48,3 @@ export const UserInformation = styled.div`
   gap: 1.5rem;
   margin-top: auto;
 `
-
-export const InfoItem = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: ${(props) => props.theme['base-subtitle']};
-`
