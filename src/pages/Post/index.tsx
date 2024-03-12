@@ -1,3 +1,14 @@
+import Markdown from 'react-markdown'
+
+import { PostInfoCard } from './PostInfoCard'
+
 export function Post() {
-  return <h1>Ola</h1>
+  const teste = '# Hi, *Pluto*!'
+
+  return (
+    <>
+      <PostInfoCard />
+      <Markdown>{teste}</Markdown>
+    </>
+  )
 }
