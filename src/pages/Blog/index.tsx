@@ -52,6 +52,7 @@ export function Blog() {
                   bio={item.body}
                   title={item.title}
                   updateDate={date}
+                  number={item.number}
                 />
               )
             })}
